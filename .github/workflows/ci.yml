@@ -25,7 +25,7 @@ jobs:
         working-directory: backend
 
       - name: TypeScript check
-        run: npx tsc --noEmit
+        run: npx tsc --noEmit --ignoreDeprecations 6.0
         working-directory: backend
 
   frontend-build:
