@@ -1,0 +1,43 @@
+# Environment variables (NEVER commit these)
+.env
+.env.*
+!.env.template
+!.env.example
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.hypothesis/
+*.egg-info/
+
+# Build outputs
+dist/
+build/
+
+# Data & runtime files
+data/
+*.db
+*.sqlite
+*.sqlite3
+log.txt
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kiro
+.kiro/

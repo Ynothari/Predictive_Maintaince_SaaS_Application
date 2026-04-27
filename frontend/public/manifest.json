@@ -1,0 +1,12 @@
+{
+  "name": "PredictIQ",
+  "short_name": "PredictIQ",
+  "description": "AI-Powered Predictive Maintenance",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#2563eb",
+  "icons": [
+    {"src": "/vite.svg", "sizes": "any", "type": "image/svg+xml"}
+  ]
+}

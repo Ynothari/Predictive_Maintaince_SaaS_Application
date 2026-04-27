@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.hypothesis/
+venv/
+.venv/
+*.egg-info/
+
+# Data (mounted as volume)
+data/
+
+# Dev files
+.env
+.env.*
+!.env.template
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Frontend (built separately)
+frontend/
+
+# Tests
+tests/
+
+# Docs
+*.md
+ROADMAP.md
+TODO.md
