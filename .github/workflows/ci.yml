@@ -62,7 +62,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Build backend image
-        run: docker build -t predictiq-backend .
+        run: docker build --no-cache -t predictiq-backend .
 
       - name: Build frontend image
-        run: docker build -t predictiq-frontend ./frontend
+        run: docker build --no-cache -t predictiq-frontend ./frontend
